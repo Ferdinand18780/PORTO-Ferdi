@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
                 <div className="deskripsi">
                   Saya adalah seorang mahasiswa di ITB yang memiliki minat besar dalam web development, khususnya di bidang front end. Ketertarikan saya terhadap front end muncul dari keinginan untuk menciptakan antarmuka pengguna yang menarik dan fungsional. Saya merasa senang ketika dapat mengubah ide-ide menjadi tampilan yang dapat diakses dan dinikmati oleh pengguna.
-                  Selain itu, saya dikenal sebagai seseorang yang memiliki kemampuan belajar yang cepat. Dalam setiap proyek atau tantangan baru, saya selalu bersemangat untuk mempelajari teknologi dan alat-alat baru yang dapat meningkatkan kemampuan saya dalam mengembangkan situs web.
+                  Selain itu, saya dikenal sebagai seseorang yang memiliki kemampuan belajar yang cepat. Dalam setiap proyek atau tantangan baru, saya selalu bersemangat untuk mempelajari teknologi dan alat-alat baru yang dapat meningkatkan kemampuan saya dalam mengembangkan situs web. Selain itu dalam menjalani perkuliahan di ITB salah satu pencapaian saya adalah mendapat IP lebih dari 3.5.
                 </div>
               </div>
             </div>
