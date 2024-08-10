@@ -83,8 +83,8 @@ export default function Home() {
               <div>ferdinandgts5@gmail.com</div>
             </div>
             <div style={{display: 'flex', flexDirection:'row', columnGap:'4px'}}>
-              <img className="graph-contact" src="github.png"/>
-              <div>Ferdinand18780</div>
+              <img className="graph-contact" src="linkedin.png"/>
+              <div>Ferdinand Gabe Tua Sinaga</div>
             </div>
           </div>
           <div style={{color: '#777', marginBottom:'30px'}}> Copyright © 2023 Ferdinand Gabe Tua Sinaga. All Rights Reserved</div>
