@@ -18,9 +18,8 @@ export default function Navbar() {
         <div class='name'>FERDI</div>
         <div class="container_rigth">
           <button className="butt" onClick={() => gotosection('home')}>Home</button>
-          <button className="butt" onClick={() => gotosection('about')}>About</button>
           <button className="butt" onClick={() => gotosection('experience')}>Experience</button>
-          <button className="butt" onClick={() => gotosection('skill')}>Skill</button>
+          <button className="butt" onClick={() => gotosection('techstack')}>Tech Stack</button>
         </div>
       </div>
     );

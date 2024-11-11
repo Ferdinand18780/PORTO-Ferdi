@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-black text-white" >
       <Navbar/>
       <div>
         <section id="home">
@@ -13,29 +13,10 @@ export default function Home() {
               <img className="profil" src="/Foto.jpg" alt="Foto Profil" />
             </div>
             <div className="container-info">
-              <div style={{ fontSize: '14px', color: '#777', margin: '0' }}>Hello I'm</div>
-              <div style={{ fontSize: '26px', fontWeight: 'bold', margin: '10px 0' }}>Ferdinand Gabe Tua Sinaga</div>
-              <div style={{ fontSize: '16px', margin: '0' }}>Teknik Informatika - Ganesha</div>
-              <div style={{ fontSize: '16px', margin: '0' }}>Frontend Enthusiast</div>
-            </div>
-          </div>
-        </section>
-        <section id="about">
-          <div className="container-about">
-            <div style={{fontSize: '30px' ,fontWeight: '700'}}>About Me</div>
-            <div className="container-text-about-graph">
-              <img className='graph' src="/about.png"/>
-              <div className="line"></div>
-              <div>
-                <div className='container-graph'>
-                  <img  className='about-graph' src="/web-dev.png"/>
-                  <img  className='about-graph' src="/fast-learner.png"/>
-                  <img  className='about-graph' src="/maskot.png"/>
-                </div>
-                <div className="deskripsi">
-                  Saya adalah seorang mahasiswa di ITB yang memiliki minat besar dalam web development, khususnya di bidang front end. Ketertarikan saya terhadap front end muncul dari keinginan untuk menciptakan antarmuka pengguna yang menarik dan fungsional. Saya merasa senang ketika dapat mengubah ide-ide menjadi tampilan yang dapat diakses dan dinikmati oleh pengguna.
-                  Selain itu, saya dikenal sebagai seseorang yang memiliki kemampuan belajar yang cepat. Dalam setiap proyek atau tantangan baru, saya selalu bersemangat untuk mempelajari teknologi dan alat-alat baru yang dapat meningkatkan kemampuan saya dalam mengembangkan situs web. Selain itu dalam menjalani perkuliahan di ITB salah satu pencapaian saya adalah mendapat IP lebih dari 3.5.
-                </div>
+              <div className="gradient-text">Hello I'm</div>
+              <div className="gradient-text-Nama">Ferdinand Gabe Tua Sinaga</div>
+              <div className="desc">
+                I am a student at ITB with a strong interest in web development, particularly in front-end. My passion for front-end stems from a desire to create engaging and functional user interfaces. I enjoy bringing ideas to life in a way that users can access and appreciate. Known for my quick learning ability, I am always excited to explore new technologies and tools that enhance my web development skills.
               </div>
             </div>
           </div>
@@ -45,32 +26,45 @@ export default function Home() {
             <div style={{fontSize: '30px' ,fontWeight: '700'}}>Experience</div>
             <div className="con">
               <div className="container-experience">
-                <img  className='about-graph' src="/kalkulator.png"/>
-                <p>Making Calculator</p>
+                <img  className='about-graph' src="/resize-button.svg"/>
+                <p className="text-black">Image Resizer</p>
               </div>
               <div className="container-experience">
                 <img  className='about-graph' src="/download.png"/>
-                <p>Youtube clone (display only)</p>
+                <p className="text-black">Youtube clone (display only)</p>
               </div>
               <div className="container-experience">
                 <img  className='about-graph' src="/KSEP.png"/>
-                <p>Web Dev Internship in KSEP</p>
+                <p className="text-black">Web Dev Internship in KSEP</p>
+              </div>
+              <div className="container-experience">
+                <img  className='about-graph' src="/swastamita.png"/>
+                <p className="text-black">Swastamita App</p>
               </div>
             </div>
           </div>
         </section>
-        <section id="skill" style={{marginBottom: '100px'}}>
+        <section id="techstack" style={{marginBottom: '100px'}}>
           <div className="container-skill">
-            <div style={{fontSize: '30px' ,fontWeight: '700'}}>Skill</div>
+            <div style={{fontSize: '30px' ,fontWeight: '700'}}>Tech Stack</div>
             <div style={{marginTop:'50px'}}>
-              <div className='container-skill-graph'>
-                <img  className='about-graph' src="/python.png"/>
-                <img  className='about-graph' src="/HTML.png"/>
-                <img  className='about-graph' src="/js.png"/>
-              </div>
-              <div className='container-skill-graph'>
-                <img  className='about-graph' src="/next.svg"/>
-                <img  className='about-graph' src="/CSS.png"/>
+              <div className="slider">
+                <div className="slider-track">
+                  <img src="python.png" className="logo"/>
+                  <img src="js.png" className="logo"/>
+                  <img src="HTML.png" className="logo"/>
+                  <img src="CSS.png" className="logo"/>
+                  <img src="nextjs-icon-dark-background.png" className="logo"/>
+                  <img src="tailwind.png" className="logo"/>
+                  <img src="java.png" className="logo"/>
+                  <img src="python.png" className="logo"/>
+                  <img src="js.png" className="logo"/>
+                  <img src="HTML.png" className="logo"/>
+                  <img src="CSS.png" className="logo"/>
+                  <img src="nextjs-icon-dark-background.png" className="logo"/>
+                  <img src="tailwind.png" className="logo"/>
+                  <img src="java.png" className="logo"/>
+                </div>
               </div>
             </div>
           </div>
