@@ -1,40 +1,65 @@
-.container_navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: clamp(18px, 2vw, 24px);
-    color: white;
-    width: 100%; 
-    justify-content: center;
-    background-color: black;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5), 
-                0 0 40px rgba(255, 0, 0, 0.3), 
-                0 0 60px rgba(255, 0, 0, 0.2); 
+.container_navbar {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: clamp(14px, 1.5vw, 18px);
+  color: white;
+
+  width: 90%;
+  max-width: 860px;
+  padding: 12px 24px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  border-radius: 999px;
+
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5),
+              0 0 40px rgba(255, 0, 0, 0.3),
+              0 0 60px rgba(255, 0, 0, 0.2);
 }
 
-.name{
-    padding-left: clamp(0px, 5vw, 80px);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    
+.name {
+  font-weight: 700;
+  font-size: clamp(16px, 2vw, 22px);
+  letter-spacing: 0.05em;
 }
 
-.container_rigth{
-    display: flex;
-    margin-left: auto; 
-    gap: clamp(5px, 5vw, 50px);
-    padding-right: 20px;
+.container_rigth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
 }
 
-.butt{
-    margin: 0;
-    border-radius: 5px;
-    padding: 5px;
+.butt {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: inherit;
+  transition: color 0.2s ease, background 0.2s ease;
 }
 
 .butt:hover {
-    background-color: white;
-    color: black;
-    transition: background-color 0.2s ease 0.2s, color 0.1s ease 0.2s;
+  color: white;
+  background: rgba(255, 255, 255, 0.08);
 }
 
+.butt.active {
+  color: white;
+  background: rgba(255, 0, 0, 0.2);
+  border: 1px solid rgba(255, 0, 0, 0.4);
+}
