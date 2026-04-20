@@ -9,7 +9,7 @@ const projects = [
     title: "Distributed Database Engine",
     description:
       "Custom relational database built from scratch with a team of 20. Handled the Storage Engine layer for binary file I/O and page management.",
-    image: "/project/dbms.jpeg",
+    image: "/project/dbms.png",
     tags: ["Database", "Storage Engine", "Transactions"],
     repoUrl: "https://github.com/InfedmixDBMS/",
   },
@@ -73,7 +73,7 @@ export default function Home() {
               />
             </div>
             <div className="text-center md:text-left">
-              <div className="text-white font-bold text-2xl mb-2">Hello I'm</div>
+              <div className="text-white font-bold text-2xl mb-2">Hello I&apos;m</div>
               <div className="text-5xl md:text-6xl font-extrabold mb-6 tracking-tight text-white">
                 Ferdinand Gabe Tua Sinaga
               </div>
