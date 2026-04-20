@@ -1,4 +1,4 @@
-import Navbar from "./component/page.tsx";
+import Navbar from "./component/page";
 import "./home.css";
 import ProjectCard from './component/card';
 import TimelineExperience from './component/timeline';
