@@ -3,7 +3,7 @@ const TimelineExperience = () => {
     {
       company: "ITB E-Facility Digital Transformation",
       role: "Software Engineer (Project-Based)",
-      type: "Work Experience",
+      type: "Project Experience",
       period: "2026 – Present",
       description: "Collaborated in an Agile environment to develop dynamic modules and optimize system architecture for the ITB E-Facility ecosystem.",
       color: "bg-transparent text-blue-300 border-blue-500/50",
